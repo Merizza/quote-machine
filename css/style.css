@@ -1,0 +1,60 @@
+* {
+  font-family: 'Pacifico', cursive;
+}
+
+.quote-container {
+  text-align: center;
+}
+.quote-container h1 {
+  font-size: 80px;
+}
+.quote-container h1 span i {
+  color: #a31b1b;
+  font-size: 100px;
+  padding-left: 5px;
+}
+
+.quote {
+  margin: 0 25%;
+  height: auto;
+}
+.quote i {
+  font-size: 30px;
+}
+.quote #quote-text {
+  font-size: 35px;
+}
+.quote #author-text {
+  color: #a31b1b;
+}
+
+.newQuote {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.newQuote button {
+  height: 40px;
+  width: 100px;
+  background: transparent;
+  border-radius: 30px;
+}
+.newQuote button:focus {
+  outline: none;
+}
+
+.share {
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+.share p {
+  margin-top: -5px;
+}
+.share #twitter:link, .share #twitter:visited {
+  color: black;
+}
+.share #twitter i {
+  font-size: 25px;
+}
+.share #twitter i:hover {
+  color: blue;
+}
